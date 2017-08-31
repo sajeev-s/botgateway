@@ -37,11 +37,6 @@
 			<scope>provided</scope>
 		</dependency>
 		
-		<dependency>
-			<groupId>weblogic.modules</groupId>
-			<artifactId>javax.servlet</artifactId>
-			<version>1.0.0.0_2-5</version>
-			<scope>provided</scope>
-		</dependency>
+		
   </dependencies>
 </project>
