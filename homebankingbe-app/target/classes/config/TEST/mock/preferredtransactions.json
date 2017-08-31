@@ -1,0 +1,23 @@
+{
+    "status": "OK",
+    "preferiteList": [
+        {
+            "id": 1,
+            "aliasName": "Mario Rossi"
+        },
+        {
+            "id": 2,
+            "aliasName": "Ricarica Telefonica"
+        },
+        {
+            "id": 3,
+            "aliasName": "Ricarica Mensile Prepagata Andrea"
+        },
+        {
+            "id": 4,
+            "aliasName": "Bolletta Luce"
+        }
+    ],
+    "totalContacts" : 4,
+    "errors": []
+}

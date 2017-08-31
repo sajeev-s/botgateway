@@ -1,0 +1,105 @@
+{
+  "status": "OK",
+  "errorMessageCode": null,
+  "widgets": [
+    {
+      "widgetId": "10",
+      "code": "AGENDASCAD",
+      "widgetMode": null,
+      "description": "Agenda e scadenziario",
+      "isPersonalizable": true,
+      "isEnabled": true,
+      "selectorUrl": null
+    },
+    {
+      "widgetId": "7",
+      "code": "INDICITRAD",
+      "widgetMode": null,
+      "description": "Indici di Borsa del Trading",
+      "isPersonalizable": true,
+      "isEnabled": true,
+      "selectorUrl": null
+    },
+    {
+      "widgetId": "2",
+      "code": "LISTAMOVIM",
+      "widgetMode": "TUTTI",
+      "description": "Lista Movimenti",
+      "isPersonalizable": true,
+      "isEnabled": true,
+      "selectorUrl": null
+    },
+    {
+      "widgetId": "11",
+      "code": "MIAFILIALE",
+      "widgetMode": null,
+      "description": "Filiale del cliente",
+      "isPersonalizable": true,
+      "isEnabled": true,
+      "selectorUrl": null
+    },
+    {
+      "widgetId": "14",
+      "code": "OPERAZFREQ",
+      "widgetMode": null,
+      "description": "Operazioni frequenti",
+      "isPersonalizable": true,
+      "isEnabled": true,
+      "selectorUrl": null
+    },
+    {
+      "widgetId": "8",
+      "code": "PATRIMCOMP",
+      "widgetMode": null,
+      "description": "Patrimonio complessivo",
+      "isPersonalizable": true,
+      "isEnabled": true,
+      "selectorUrl": null
+    },
+    {
+      "widgetId": "13",
+      "code": "REFCOMMERC",
+      "widgetMode": null,
+      "description": "Referente commerciale",
+      "isPersonalizable": true,
+      "isEnabled": true,
+      "selectorUrl": null
+    },
+    {
+      "widgetId": "9",
+      "code": "RICSUCCATM",
+      "widgetMode": null,
+      "description": "Ricerca succursali ed ATM",
+      "isPersonalizable": true,
+      "isEnabled": true,
+      "selectorUrl": null
+    },
+    {
+      "widgetId": "6",
+      "code": "SALDOCARTA",
+      "widgetMode": "CARTA",
+      "description": "Saldo della carta",
+      "isPersonalizable": true,
+      "isEnabled": true,
+      "selectorUrl": "/widget/filterproducts"
+    },
+    {
+      "widgetId": "1",
+      "code": "SALDOCONTO",
+      "widgetMode": "CONTO",
+      "description": "Saldo del conto",
+      "isPersonalizable": true,
+      "isEnabled": true,
+      "selectorUrl": "/widget/filterproducts"
+    },
+    {
+      "widgetId": "12",
+      "code": "SPESEMESEC",
+      "widgetMode": null,
+      "description": "Spese del mese corrente",
+      "isPersonalizable": true,
+      "isEnabled": true,
+      "selectorUrl": null
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+	"status": "OK",
+	"errorMessageCode": null,
+	"movements": [{
+		"amount": "41,30",
+		"type": "D",
+		"numeroProgressivo": "849573",
+		"dateContabile": "27/12/2016",
+		"dateValuta": "12/12/2016",
+		"description": "PD POS-A 2312 ASL TO 5",
+		"category": "Casa",
+		"tags" : [{
+			"tagId":"10",
+			"tagName" : "Bonifici"
+		}]
+	}, {
+		"amount": "5,00",
+		"type": "D",
+		"numeroProgressivo": "189281",
+		"dateContabile": "27/12/2016",
+		"dateValuta": "27/12/2016",
+		"description": "BA A1 LIFE SPA N X99412028 01 RIVA STEFANO",
+		"category": "Casa",
+		"tags" : [{
+			"tagId":"11",
+			"tagName" : "FINANZIAMENTI"
+		}]
+	}, {
+		"amount": "44,00",
+		"type": "D",
+		"numeroProgressivo": "189171",
+		"dateContabile": "27/12/2016",
+		"dateValuta": "27/12/2016",
+		"description": "BA MARIO Data Ordine 27122016 REGALO ROBERTO",
+		"category": "Casa",
+		"tags" : [{
+			"tagId":"10",
+			"tagName" : "Bonifici"
+		},{
+			"tagId":"11",
+			"tagName" : "FINANZIAMENTI"
+		}]
+	}, {
+		"amount": "51,00",
+		"type": "D",
+		"numeroProgressivo": "188398",
+		"dateContabile": "27/12/2016",
+		"dateValuta": "27/12/2016",
+		"description": "BA COND V BARAGGINO7A",
+		"category": "Casa",
+		"tags" : [{
+			"tagId":"10",
+			"tagName" : "Bonifici"
+		}]
+	}]
+}

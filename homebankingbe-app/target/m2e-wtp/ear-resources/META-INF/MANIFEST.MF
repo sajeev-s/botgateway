@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+SCM-repository: 
+WebLogic-Application-Version: 0.4.09
+SCM-revision: 
+Built-By: gbs02482
+SCM-path: 
+Build-Jdk: 1.8.0_91
+Created-By: Maven Integration for Eclipse
+

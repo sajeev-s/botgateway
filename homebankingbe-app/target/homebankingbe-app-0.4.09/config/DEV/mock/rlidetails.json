@@ -1,0 +1,142 @@
+{
+  "status": "OK",
+  "errorMessageCode": null,
+  "importantMessage": [
+    {
+      "title": "Variazione orario Succursale di Montebelluna",
+      "category": "RICCINFOR",
+      "categoryDescription": "Informazioni",
+      "shortMessage": "Variazione Orario",
+      "messageId": "1186134#NORMAL",
+      "iconName": "nc-icon-info"
+    },
+    {
+      "title": "Variazione orario Succursale di Sassuolo",
+      "category": "RICCINFOR",
+      "categoryDescription": "Informazioni",
+      "shortMessage": "Variazione Orario",
+      "messageId": "1196959#NORMAL",
+      "iconName": "nc-icon-info"
+    },
+    {
+      "title": "Variazione orario Succursale di Modena",
+      "category": "RICCINFOR",
+      "categoryDescription": "Informazioni",
+      "shortMessage": "Variazione Orario",
+      "messageId": "1196038#NORMAL",
+      "iconName": "nc-icon-info"
+    },
+    {
+      "title": "Variazione orario Succursale di Ferrara",
+      "category": "RICCINFOR",
+      "categoryDescription": "Informazioni",
+      "shortMessage": "Variazione Orario",
+      "messageId": "1199807#NORMAL",
+      "iconName": "nc-icon-info"
+    },
+    {
+      "title": "Variazione orario Succursale di Carpi",
+      "category": "RICCINFOR",
+      "categoryDescription": "Informazioni",
+      "shortMessage": "Variazione Orario",
+      "messageId": "1200303#NORMAL",
+      "iconName": "nc-icon-info"
+    },
+    {
+      "title": "Variazione orario Succursale di Casalecchio di Reno",
+      "category": "RICCINFOR",
+      "categoryDescription": "Informazioni",
+      "shortMessage": "Variazione Orario",
+      "messageId": "1200657#NORMAL",
+      "iconName": "nc-icon-info"
+    },
+    {
+      "title": "Variazione orario Succursale di Vignola",
+      "category": "RICCINFOR",
+      "categoryDescription": "Informazioni",
+      "shortMessage": "Variazione Orario",
+      "messageId": "1198587#NORMAL",
+      "iconName": "nc-icon-info"
+    },
+    {
+      "title": "Variazione orario Succursale di Modena 3",
+      "category": "RICCINFOR",
+      "categoryDescription": "Informazioni",
+      "shortMessage": "Variazione Orario",
+      "messageId": "1198831#NORMAL",
+      "iconName": "nc-icon-info"
+    },
+    {
+      "title": "Variazione orario Succursale di Castelfranco Emilia",
+      "category": "RICCINFOR",
+      "categoryDescription": "Informazioni",
+      "shortMessage": "Variazione Orario",
+      "messageId": "1197232#NORMAL",
+      "iconName": "nc-icon-info"
+    },
+    {
+      "title": "Variazione orario Succursale di San Martino Buon Albergo",
+      "category": "RICCINFOR",
+      "categoryDescription": "Informazioni",
+      "shortMessage": "Variazione Orario",
+      "messageId": "1190700#NORMAL",
+      "iconName": "nc-icon-info"
+    },
+    {
+      "title": "Variazione orario Succursale di Udine",
+      "category": "RICCINFOR",
+      "categoryDescription": "Informazioni",
+      "shortMessage": "Variazione Orario",
+      "messageId": "1187336#NORMAL",
+      "iconName": "nc-icon-info"
+    },
+    {
+      "title": "Variazione orario Succursale di Treviso",
+      "category": "RICCINFOR",
+      "categoryDescription": "Informazioni",
+      "shortMessage": "Variazione Orario",
+      "messageId": "1187653#NORMAL",
+      "iconName": "nc-icon-info"
+    },
+    {
+      "title": "Variazione orario Succursale di Covolo di Pederobba",
+      "category": "RICCINFOR",
+      "categoryDescription": "Informazioni",
+      "shortMessage": "Variazione Orario",
+      "messageId": "1186538#NORMAL",
+      "iconName": "nc-icon-info"
+    },
+    {
+      "title": "Variazione orario Succursale di Treviso Centro",
+      "category": "RICCINFOR",
+      "categoryDescription": "Informazioni",
+      "shortMessage": "Variazione Orario",
+      "messageId": "1190609#NORMAL",
+      "iconName": "nc-icon-info"
+    },
+    {
+      "title": "Variazione orario Succursale di Padova",
+      "category": "RICCINFOR",
+      "categoryDescription": "Informazioni",
+      "shortMessage": "Variazione Orario",
+      "messageId": "1189896#NORMAL",
+      "iconName": "nc-icon-info"
+    },
+    {
+      "title": "Variazione orario Succursale di Bassano del Grappa",
+      "category": "RICCINFOR",
+      "categoryDescription": "Informazioni",
+      "shortMessage": "Variazione Orario",
+      "messageId": "1188971#NORMAL",
+      "iconName": "nc-icon-info"
+    },
+    {
+      "title": "Nuovo Remote Banking",
+      "category": "RICCINFOR",
+      "categoryDescription": "Informazioni",
+      "shortMessage": "Inizia la procedura di passaggio automatico al New Bank For Business",
+      "messageId": "539594#NORMAL",
+      "iconName": "nc-icon-info"
+    }
+  ]
+}

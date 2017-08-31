@@ -1,0 +1,2 @@
+Manifest-Version: 1.0 [CRLF]
+Class-Path: homebankingbe-common-0.4.09.jar [CRLF]

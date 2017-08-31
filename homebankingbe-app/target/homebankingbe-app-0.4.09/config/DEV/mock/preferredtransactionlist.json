@@ -1,0 +1,27 @@
+{
+    "status": "OK",
+    "totalCount" : 45,
+    "rows": [
+        {
+            "id": 1,
+            "aliasName": "Mario Rossi",
+            "operationType": "Bonifico"
+        },
+        {
+            "id": 2,
+            "aliasName": "Ricarica Telefonica",
+            "operationType": "Ricarica Telefonica"
+        },
+        {
+            "id": 3,
+            "aliasName": "Ricarica Mensile Prepagata Andrea",
+            "operationType": "Ricarica Carta Prepagata"
+        },
+        {
+            "id": 4,
+            "aliasName": "Bolletta Luce",
+            "operationType": "Bolletta"
+        }
+    ],
+    "errors": []
+}

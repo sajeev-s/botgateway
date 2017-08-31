@@ -1,0 +1,132 @@
+{
+  "status": "OK",
+  "errorMessageCode": null,
+  "widgets": [
+    {
+      "widgetId": "10",
+      "code": "AGENDASCAD",
+      "widgetMode": null,
+      "description": "Agenda e scadenziario",
+      "fixedPosition": "7",
+      "enabled": "1",
+      "selectorUrl": null
+    },
+    {
+      "widgetId": "7",
+      "code": "INDICITRAD",
+      "widgetMode": null,
+      "description": "Indici di Borsa del Trading",
+      "fixedPosition": null,
+      "enabled": "1",
+      "selectorUrl": null
+    },
+    {
+      "widgetId": "3",
+      "code": "LISTAMOVIM",
+      "widgetMode": "TUTTI",
+      "description": "Lista movimenti della carta",
+      "fixedPosition": null,
+      "enabled": "1",
+      "selectorUrl": "/widget/filterproducts"
+    },
+    {
+      "widgetId": "2",
+      "code": "LISTAMOVIM",
+      "widgetMode": "TUTTI",
+      "description": "Lista movimenti del conto",
+      "fixedPosition": null,
+      "enabled": "1",
+      "selectorUrl": "/widget/filterproducts"
+    },
+    {
+      "widgetId": "11",
+      "code": "MIAFILIALE",
+      "widgetMode": null,
+      "description": "Filiale del cliente",
+      "fixedPosition": null,
+      "enabled": "1",
+      "selectorUrl": null
+    },
+    {
+      "widgetId": "14",
+      "code": "OPERAZFREQ",
+      "widgetMode": null,
+      "description": "Operazioni frequenti",
+      "fixedPosition": null,
+      "enabled": "1",
+      "selectorUrl": null
+    },
+    {
+      "widgetId": "8",
+      "code": "PATRIMCOMP",
+      "widgetMode": null,
+      "description": "Patrimonio complessivo",
+      "fixedPosition": null,
+      "enabled": "1",
+      "selectorUrl": null
+    },
+    {
+      "widgetId": "4",
+      "code": "PROMOPERTE",
+      "widgetMode": null,
+      "description": "Promozioni dedicate al cliente",
+      "fixedPosition": null,
+      "enabled": "1",
+      "selectorUrl": null
+    },
+    {
+      "widgetId": "13",
+      "code": "REFCOMMERC",
+      "widgetMode": null,
+      "description": "Referente commerciale",
+      "fixedPosition": null,
+      "enabled": "1",
+      "selectorUrl": null
+    },
+    {
+      "widgetId": "5",
+      "code": "RELAZINTEG",
+      "widgetMode": null,
+      "description": "Box di Relazione Integrata",
+      "fixedPosition": null,
+      "enabled": "1",
+      "selectorUrl": null
+    },
+    {
+      "widgetId": "9",
+      "code": "RICSUCCATM",
+      "widgetMode": null,
+      "description": "Ricerca succursali ed ATM",
+      "fixedPosition": null,
+      "enabled": "1",
+      "selectorUrl": null
+    },
+    {
+      "widgetId": "6",
+      "code": "SALDOCARTA",
+      "widgetMode": "TUTTI",
+      "description": "Saldo della carta",
+      "fixedPosition": null,
+      "enabled": "1",
+      "selectorUrl": "/widget/filterproducts"
+    },
+    {
+      "widgetId": "1",
+      "code": "SALDOCONTO",
+      "widgetMode": "TUTTI",
+      "description": "Saldo del conto",
+      "fixedPosition": null,
+      "enabled": "1",
+      "selectorUrl": "/widget/filterproducts"
+    },
+    {
+      "widgetId": "12",
+      "code": "SPESEMESEC",
+      "widgetMode": null,
+      "description": "Spese del mese corrente",
+      "fixedPosition": null,
+      "enabled": "1",
+      "selectorUrl": null
+    }
+  ]
+}

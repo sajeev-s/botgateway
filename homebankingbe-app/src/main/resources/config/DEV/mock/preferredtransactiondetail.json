@@ -1,0 +1,11 @@
+{
+    "status": "OK",
+    "operation": {
+        "operationType": "EFFETTUA_BONIFICI",
+        "operationAlias": "Bonifico Mensile Mari",
+        "iban": "IT22Z033310320000123213122",
+        "causale": "Afitto casa",
+        "importo": "2.000"
+    },
+    "errors": []
+}

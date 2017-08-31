@@ -1,0 +1,45 @@
+{
+	"status": "OK",
+	"errorMessageCode": null,
+	"bankdocuments": [{
+		"dataFirma": "27-11-2016",
+		"description": "Documento QUESTIONARIOAR firmato dal cliente",
+		"barcode": "1001194141899",
+		"imageId": "117331145"		
+	}, {
+		"dataFirma": "27-11-2016",
+		"description": "Documento PRIVACY firmato dal cliente",
+		"barcode": "1001194141882",
+		"imageId": "117331141"	
+	}, {
+		"dataFirma": "27-11-2016",
+		"description": "Documento CONTO firmato dal cliente",
+		"barcode": "1001194141875",
+		"imageId": "117331143"	
+	}],
+	"clientdocuments":[{
+		"dataFirma": "17-09-2014",
+		"description": "Documento EMONEY firmato dalla banca",
+		"barcode": "9011002289486",
+		"imageId": "55271522"
+	}],
+	"firmatiinsuccursale":[{
+		"dataFirma": "17-09-2014",
+		"description": "Documento  firmato dalla banca",
+		"barcode": "9011002289486",
+		"imageId": "55271522"
+	}],
+	"operazionicontabili":[{
+		"dataFirma": "17-09-2014",
+		"description": "Documento  firmato dalla banca",
+		"barcode": "9011002289486",
+		"imageId": "55271522"
+	}],
+		"strumentifinanziari":[{
+		"dataFirma": "17-09-2014",
+		"description": "Documento firmato dalla banca",
+		"barcode": "9011002289486",
+		"imageId": "55271522"
+	}]
+	
+}

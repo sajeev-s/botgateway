@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>botgateway-web</artifactId>
+	<packaging>war</packaging>
+	<groupId>it.sella.externals.homebankingbe</groupId>
+	<version>0.4.09</version>
+	<name>botgateway-web</name>
+	<parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.3.3.RELEASE</version>
+    </parent>
+	<build>
+		<testResources>
+			<testResource>
+				<directory>src/main/resources</directory>
+			</testResource>
+		</testResources>
+		<finalName>hbbg</finalName>
+		<plugins>
+	      <plugin>
+	        <groupId>com.heroku.sdk</groupId>
+	        <artifactId>heroku-maven-plugin</artifactId>
+	        <version>1.2.0</version>
+	         <configuration>
+			  <appName>test-im</appName>
+			</configuration>
+	      </plugin>
+	    </plugins>
+	   
+	</build>
+	<dependencies>
+		
+		 <dependency>
+			<groupId>it.sella.externals.homebankingbe</groupId>
+			<artifactId>botgateway-core</artifactId>
+			<version>0.4.09</version>
+		</dependency> 
+		<dependency>
+			<groupId>it.sella.externals.homebankingbe</groupId>
+			<artifactId>botgateway-serviceclient</artifactId>
+			<version>0.4.09</version>
+		</dependency> 
+		<dependency>
+			<groupId>it.sella.externals.homebankingbe</groupId>
+			<artifactId>botgateway-common</artifactId>
+			<version>0.4.09</version>
+		</dependency> 
+		<dependency>
+			<groupId>it.sella.externals.homebankingbe</groupId>
+			<artifactId>botgateway-interface</artifactId>
+			<version>0.4.09</version>
+		</dependency> 
+		<!-- <dependency>
+			<groupId>it.sella.externals.homebankingbe</groupId>
+			<artifactId>homebankingbe-common</artifactId>
+			<version>0.4.09</version>
+		</dependency> --> 
+		
+		<!-- SYS DEPENDENCIES -->
+		<dependency>
+			<groupId>weblogic.modules</groupId>
+			<artifactId>javax.servlet</artifactId>
+			<version>1.0.0.0_2-5</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>weblogic.modules</groupId>
+			<artifactId>javax.jsp</artifactId>
+			<version>1.1.0.0_2-1</version>
+			<scope>provided</scope>
+		</dependency>				
+  		<dependency>
+			<groupId>oracle.jdbc.driver</groupId>
+			<artifactId>ojdbc14</artifactId>
+			<version>10.2.0.1.0</version>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
+</project>

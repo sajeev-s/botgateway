@@ -1,0 +1,95 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  
+  <artifactId>botgateway-interface</artifactId>
+  <groupId>it.sella.externals.homebankingbe</groupId>
+		<version>0.4.09</version>
+  <packaging>jar</packaging>
+  <name>botgateway-interface</name>
+   <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.3.3.RELEASE</version>
+    </parent>
+  
+   <properties>
+		<spring.version.bg>4.2.3.RELEASE</spring.version.bg>
+		<jackson.version.bg>2.9.0.pr4</jackson.version.bg>
+		<projectVersion>0.4.09</projectVersion>
+	</properties>
+  
+  <dependencies>
+  
+  		<dependency>
+			<groupId>weblogic.modules</groupId>
+			<artifactId>javax.servlet</artifactId>
+			<version>1.0.0.0_2-5</version>
+			<scope>provided</scope>
+		</dependency>
+  <!-- Jackson -->
+		<dependency>
+	        <groupId>com.fasterxml.jackson.core</groupId>
+	        <artifactId>jackson-databind</artifactId>
+	        <version>${jackson.version.bg}</version>
+		</dependency>
+		
+		<dependency>
+	        <groupId>com.fasterxml.jackson.core</groupId>
+	        <artifactId>jackson-core</artifactId>
+	        <version>${jackson.version.bg}</version>
+		</dependency>
+		
+		<!-- Spring -->	
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-beans</artifactId>
+			<version>${spring.version.bg}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-web</artifactId>
+			<version>${spring.version.bg}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>${spring.version.bg}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-tx</artifactId>
+			<version>${spring.version.bg}</version>
+		</dependency>
+		
+		<dependency>
+	        <groupId>org.springframework</groupId>
+	        <artifactId>spring-context</artifactId>
+	        <version>${spring.version.bg}</version>
+	    </dependency>
+	    
+	    <dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context-support</artifactId>
+			<version>${spring.version.bg}</version>
+		</dependency>	
+	    
+	    <dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-orm</artifactId>
+			<version>${spring.version.bg}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-oxm</artifactId>
+			<version>${spring.version.bg}</version>
+		</dependency>
+				
+  </dependencies>
+  
+  
+  
+</project>
