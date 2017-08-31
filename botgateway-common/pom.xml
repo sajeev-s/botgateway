@@ -28,24 +28,7 @@
 			<scope>provided</scope>
 		</dependency>
 		<!-- SYS DEPENDENCIES -->
-		<dependency>
-			<groupId>weblogic.modules</groupId>
-			<artifactId>javax.servlet</artifactId>
-			<version>1.0.0.0_2-5</version>
-			<scope>provided</scope>
-		</dependency>
-		<dependency>
-			<groupId>weblogic.modules</groupId>
-			<artifactId>javax.jsp</artifactId>
-			<version>1.1.0.0_2-1</version>
-			<scope>provided</scope>
-		</dependency>				
-  		<dependency>
-			<groupId>oracle.jdbc.driver</groupId>
-			<artifactId>ojdbc14</artifactId>
-			<version>10.2.0.1.0</version>
-			<scope>provided</scope>
-		</dependency>
+	
 		
 		<!-- JAX-WS Dependencies -->
 		<dependency>
@@ -76,27 +59,7 @@
 		</dependency>
 		
 		<!-- Sella Util -->
-		<dependency>
-		  <groupId>it.sella.util</groupId>
-		  <artifactId>util-lib-core</artifactId>
-		  <version>5.9.0</version>
-		</dependency>
-		<dependency>
-		  <groupId>it.sella.utilcore</groupId>
-		  <artifactId>utilcore-lib</artifactId>
-		  <version>1.8.0</version>
-		</dependency>
-		<dependency>
-			<groupId>it.sella.crossauthentication</groupId>
-			<artifactId>crossauthentication-lib-core</artifactId>
-			<version>4.1.2</version>
-		</dependency>
 		
-			<dependency>
-			<groupId>it.sella.securitycore</groupId>
-			<artifactId>securitycore-wls</artifactId>
-			<version>2.6.0</version>
-		</dependency>
 		
 		<!-- Apache -->
 		<dependency>
