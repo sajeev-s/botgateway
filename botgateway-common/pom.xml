@@ -28,24 +28,7 @@
 			<scope>provided</scope>
 		</dependency>
 		<!-- SYS DEPENDENCIES -->
-		<dependency>
-			<groupId>weblogic.modules</groupId>
-			<artifactId>javax.servlet</artifactId>
-			<version>1.0.0.0_2-5</version>
-			<scope>provided</scope>
-		</dependency>
-		<dependency>
-			<groupId>weblogic.modules</groupId>
-			<artifactId>javax.jsp</artifactId>
-			<version>1.1.0.0_2-1</version>
-			<scope>provided</scope>
-		</dependency>				
-  		<dependency>
-			<groupId>oracle.jdbc.driver</groupId>
-			<artifactId>ojdbc14</artifactId>
-			<version>10.2.0.1.0</version>
-			<scope>provided</scope>
-		</dependency>
+	
 		
 		<!-- JAX-WS Dependencies -->
 		<dependency>
