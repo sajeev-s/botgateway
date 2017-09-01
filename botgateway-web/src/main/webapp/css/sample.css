@@ -165,24 +165,4 @@ html, body {
 	border-radius : 50%
 }
 
-.chat-message {
-    display: block;
-    width: 40px;
-    height: 40px;
-	line-height: 40px;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-    text-align: center;
-    letter-spacing: 1px;
-    float: left;
-    margin-right: 10px;
-}
 
-.chat-message-agent {
-    background-color: #dea4ba;    
-}
-
-.chat-message-cust {
-    background-color: #99c0ef;    
-}

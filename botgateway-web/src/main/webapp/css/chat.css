@@ -1,0 +1,116 @@
+.chat-entry {
+	display: block;
+    margin-left: 0px !important;
+	color: #cc1aac;
+	font-family: serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.chat-entry:before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 8px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+	
+}
+	.chat-entry--bank:before {
+        background-color: #dea4ba;
+    }
+	.chat-entry--user:before {
+        background-color: #dea4ba;
+    }
+
+
+
+.chat-message {
+    display: block;
+    position: relative;
+    clear: both;
+    overflow: hidden;
+	margin-left: 0px !important;
+    width: 100%;
+    height: auto;
+    margin: 0px 0px 5px;
+	font-size: 14px;
+}
+
+.chat-message__sender {
+    display: block;
+
+    width: 40px;
+    height: 40px;
+	line-height: 40px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    letter-spacing: 1px;
+	
+
+}
+
+.chat-message__text {
+    display: block;
+    box-sizing: content-box;
+
+    width: 400px;
+    height: auto;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 15px;
+    
+}
+
+.chat-message--bank{
+	float: left !important;
+}
+
+.chat-message--user{
+	float: right !important;
+}
+    
+	
+	.chat-message--bank .chat-message__sender {
+        float: left;
+
+        margin-right: 5px;
+
+        background-color: #dea4ba;
+    }
+    .chat-message--bank .chat-message__text {
+        float: left;
+
+        background-color: #dea4ba;
+    }
+
+
+
+    .chat-message--user .chat-message__sender {
+        float: right !important;
+
+        margin-left: 5px !important;
+
+        background-color: #99c0ef;
+    }
+    .chat-message--user .chat-message__text {
+        float: right !important;
+
+        background-color: #99c0ef;
+    }
+
+	.chat-message--user .chatTimeDiv {
+        float: left !important;
+
+        color: blue;
+    }
+    .chat-message--bank .chatTimeDiv {
+        float: right !important;
+
+        color : purple;
+    }
