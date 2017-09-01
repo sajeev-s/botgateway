@@ -4,7 +4,11 @@ public enum BGCONSTANT {
 	OK("OK"),
 	CHATID("chatid"),
 	USERDETAIL("userdetail"),
-	CHATURL("chaturl");
+	CHATURL("chaturl"),
+	POLLMESSAGE("pollmessage"),
+	CLIENT("Client"),
+	BOT("BOT"),
+	MESSAGE("message");
 
 	public String VALUE;
 

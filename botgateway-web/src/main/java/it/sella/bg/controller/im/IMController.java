@@ -4,6 +4,7 @@ import java.util.List;
 
 import javax.servlet.http.HttpSession;
 
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -18,6 +19,7 @@ import it.sella.bg.im.dto.request.IMRequest;
 import it.sella.bg.im.dto.request.Parameter;
 import it.sella.bg.im.dto.response.IMResponse;
 import it.sella.bg.listener.util.SessionUtil;
+import it.sella.bg.poll.dto.PollMessage;
 import it.sella.bg.util.BGCONSTANT;
 
 @RestController
@@ -44,16 +46,14 @@ public class IMController {
 		return imResponse;
 	}
 
-	@RequestMapping(value = "/pool", method = {RequestMethod.POST})
-	public @ResponseBody IMResponse pool(@RequestBody IMRequest imRequest) {
-		System.out.println("Inside pool -->");
-		final IMResponse imResponse = this.actionHandler.process(imRequest);
-
-		return imResponse;
+	@RequestMapping(value = "/poll", method = {RequestMethod.POST})
+	public @ResponseBody List<PollMessage> pool(@RequestBody IMRequest imRequest,HttpSession session) {
+		System.out.println("Inside poll -->");
+		return (List<PollMessage>)session.getAttribute(BGCONSTANT.POLLMESSAGE.VALUE);
 	}
 
 	@RequestMapping(value = "/chatresult", method = {RequestMethod.POST})
-	public void chatresult(@RequestBody IMRequest imRequest) {
+	public void chatresult(@RequestBody IMRequest imRequest) throws Exception {
 
 		System.out.println("inside chat result");
 		System.out.println(imRequest.getAction() +" -- "+imRequest.getChatid()+" -- "+imRequest.getIdevent());
@@ -73,6 +73,24 @@ public class IMController {
 			}
 		}
 
+		for (final EventData eventData : imRequest.getEventdata()) {
+			if(BGCONSTANT.MESSAGE.VALUE.equals(eventData.getName())){
+				if(StringUtils.isNotEmpty(imRequest.getChatid())){
+					final HttpSession session = SessionUtil.getSession(imRequest.getChatid());
+					if(session!=null){
+						final PollMessage pollMessage = new PollMessage();
+						pollMessage.setSender(BGCONSTANT.BOT.VALUE);
+						pollMessage.setMessage((String)eventData.getValue());
+						final List<PollMessage> pollMessages = (List<PollMessage>)session.getAttribute(BGCONSTANT.POLLMESSAGE.VALUE);
+						pollMessages.add(pollMessage);
+					}else{
+						throw new Exception("invalid session -->"+imRequest.getChatid());
+					}
+
+				}
+			}
+
+		}
 
 	}
 }

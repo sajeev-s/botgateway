@@ -68,9 +68,7 @@ public class IMRequest {
 		final StringBuilder builder = new StringBuilder();
 		builder.append("$eventId-->").append(this.idevent).append("$chatId-->").append(this.chatid).append("$action-->")
 		.append(this.action).append("$eventdata-->");
-		//for (final EventData eventData2 : this.eventdata) {
-
-		//}
+		
 		//		builder.
 
 		return builder.toString();
