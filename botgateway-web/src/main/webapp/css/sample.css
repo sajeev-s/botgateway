@@ -91,6 +91,7 @@
 }
 .customermsg{
 	color : blue !important;
+	margin-top:15px  !important;
 }
 
 .header .glyphicon 	{
@@ -125,44 +126,58 @@ html, body {
 	border: 1px solid rgb(202, 208, 225);
 }
 .sl-invia-sellait {
-    background-image: url(/images/invia.gif);
+    background-image: url(../images/invia.gif);
     background-repeat: no-repeat;
 	align:center !important;
-	width: 100%;
-	height: 30px;
-}
-.sl-invia-sellait :hover { 
-    background-image: url(/images/invia_over.gif);
-    background-repeat: no-repeat;
-	align:center !important;
-	width: 100%;
-	height: 30px;
-}
-.agent-nick-img-circle{ 
-    background: #598e3f;
-	text-align:center;
-	font-weight:bold;
-	font-size:25px;
-	width: 40px;
+	width: 135px;
 	height: 40px;
-	border-radius : 50%
+}
+.sl-invia-sellait:hover { 
+    background-image: url(../images/invia_over.gif);
+    background-repeat: no-repeat;
+	align:center !important;
+	width: 135px;
+	height: 40px;
 }
 .nick-img-circle  { 
-    background: #55c1e7;
-	text-align:center;
-	font-weight:bold;
-	font-size:25px;
-	width: 40px;
-	height: 40px;
-	border-radius : 50%
-}
-.printImg { 
-    background-image: url(/images/print.png);
+    background-image: url(images/bluebg.png);
     background-repeat: no-repeat;
 	align:center !important;
 	width: 50px;
 	height: 50px;
 	border-radius : 50%
 }
-
-
+.center {
+    margin: auto;
+    width: 20%;
+}
+.FuoropxBorder {
+	  border: 0px solid
+}
+.FuorrgbColor{
+	 color: rgb(0, 230, 0);
+	 font-size: 30px
+}
+.FuoralignCenter{
+	 text-align: center
+}
+.FuorweightBold{
+	 font-weight: bold
+}
+.FuoriTLang{
+	 font-size: 10pt;
+	 font-family: Tahoma
+}
+.FuorfontFamily{
+	 font-family: Helvetica
+}
+.FuorfontFamilyCenter{
+	 text-align: center;
+	 font-family: Helvetica
+}
+.FuorfontFamilyCenterBold{
+	 text-align: center;
+	 color: rgb(0, 1, 0);
+	 font-weight: bold;
+	 font-family: Arial
+}
