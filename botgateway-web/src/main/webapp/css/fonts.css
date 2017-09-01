@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'lato';
+  src: url("fonts/lato-regular-webfont.woff2") format('woff2'), url("fonts/lato-regular-webfont.woff") format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'lato';
+  src: url("fonts/lato-bold-webfont.woff2") format('woff2'), url("fonts/lato-bold-webfont.woff") format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'lato';
+  src: url("fonts/lato-black-webfont.woff2") format('woff2'), url("fonts/lato-black-webfont.woff") format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'montserrat';
+  src: url("fonts/montserrat-regular-webfont.woff2") format('woff2'), url("fonts/montserrat-regular-webfont.woff") format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'montserrat';
+  src: url("fonts/montserrat-semibold-webfont.woff2") format('woff2'), url("fonts/montserrat-semibold-webfont.woff") format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'montserrat';
+  src: url("fonts/montserrat-bold-webfont.woff2") format('woff2'), url("fonts/montserrat-bold-webfont.woff") format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
